@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        hello
+    </div>
+</body>
+
+<style> 
+body  {
+    display: flex;
+    background-color: black;
+}
+
+    div {
+        width: 200px;
+        height: 200px;
+        background-color: brown;
+        font-size: large;
+        margin: auto;
+        color: black;
+        /* padding: 50px; */
+
+        animation: 3s spin ease-in-out infinite;
+    }
+    @keyframes spin {
+        0% {
+
+        }
+        50% {
+            scale: 2;
+        }
+        100% {
+            transform: rotate(360deg);
+            border-radius: 50%;
+            scale: 2;
+        }
+        
+    }
+</style>
+</html>
